@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Funny Youtube</title>
+</head>
+<body>
+    <div class="videoID">
+        Enter Youtube link: 
+        <input type="text" id="video_ID" value="https://www.youtube.com/watch?v=hTWKbfoikeg">
+        <img src="play.png" class="play_button" onclick="play_video()"></img>
+    </div>
+    <div  id="YBplayer"></div>
+
+
+    <iframe referrerpolicy= "no-referrer-when-downgrade" width="560" height="315" src="http://www.youtube.com/embed/hTWKbfoikeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
